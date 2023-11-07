@@ -1,0 +1,123 @@
+.div{
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: #2f3441;
+    position: fixed;
+}
+
+.h1{
+    text-align: center;
+    color: white;
+}
+
+.header{
+    height: 10vh;
+    width: 214.8vh;
+    background-color: #34aadc;
+}
+.div1{
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 60vw;
+    height: 80vh;
+    border-radius: 10px;
+    justify-content: center;
+}
+.img{
+    width:50vw;
+    height:60vh;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+.button{
+    background-color: black;
+    color: black;
+    width: 5vw;
+    height: 5vh;
+
+}
+.drawerimg{
+    width:160px ;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.inputdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Set background color with opacity */
+    backdrop-filter: blur(10px); /* Apply blur effect to background */
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 20px 40px;
+}
+
+.inputdiv input {
+    width: 80%; /* Set input width as per your preference */
+    height: 40px; /* Set input height as per your preference */
+    text-align: center; /* Center align text inside input */
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+}
+
+
+@media screen and (max-width: 600px) {
+    .div{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        background-color: #2f3441;
+        position: fixed;
+    }
+
+    .h1{
+        font-size: xx-large;
+        text-align: center;
+        color: white;
+        margin-left: 45px;
+
+    }
+
+    .div1{
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 60vw;
+        height: 80vh;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    .img{
+        width:60vw;
+        height:20vh;
+        margin-left: 40px;
+        border-radius: 10px;
+    }
+    .drawerimg{
+        width:200px;
+        padding: 10px;
+        margin-right: 150px;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .div{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        background-color: #2f3441;
+        position: fixed;
+    }
+    .div1{
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 60vw;
+        height: 80vh;
+        border-radius: 10px;
+        justify-content: center;
+    }
+}
+
